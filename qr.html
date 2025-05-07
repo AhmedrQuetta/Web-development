@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .heading {
+      text-align: center;
+      background-color: #3b82f6;
+      color: white;
+      padding: 1px;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .content {
+      text-align: center;
+      margin-top: 10px;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      font-size: 16px;
+      line-height: 1.5;
+      padding: 10px;
+      transition: box-shadow 0.3s ease-in-out;
+    }
+    .class {
+      background-color: #f2f2f2;
+      padding: 10px;
+      margin-bottom: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      transition: box-shadow 0.3s ease-in-out;
+    }
+
+    .form {
+      text-align: center;
+      margin-top: 20px;
+    }
+    #url {
+      width: 300px;
+      padding: 10px;
+    }
+    #select {
+      width: 300px;
+      padding: 10px;
+    }
+    #btn {
+      padding: 10px 20px;
+      width: 300px;
+      background-color: #212422;
+      font-weight: bold;
+      color: white;
+      border: none;
+      cursor: pointer;
+      transition: background-color 0.3s ease-in-out;
+    }
+  </style>
+
+  <body>
+    <div class="heading">
+      <h1 id="main-heading">Link to QR Code Powered By TechvioChats</h1>
+    </div>
+
+    <div class="content">
+      <h2>Link to QR Code Powered By TechvioChats</h2>
+      <p>
+        QR Codes allow smartphone users to access your website simply and
+        quickly.
+      </p>
+      <p>Enter your URL below to generate a QR Code and download the image.</p>
+    </div>
+
+    <form class="form" action="" method="post">
+      <input placeholder="Enter a URL" type="url" name="" id="url" />
+      <br /><br />
+      <select name="" id="select">
+        <option value="100x100">100x100</option>
+        <option value="200x200">200x200</option>
+        <option value="300x300">300x300</option>
+        <option value="400x400">400x400</option>
+        <option value="500x500">500x500</option>
+        <option value="600x600">600x600</option>
+        <option value="700x700">700x700</option>
+      </select>
+      <br /><br />
+      <button id="btn">Generate QR Code</button>
+    </form>
+
+    <!-- <audio controls autoplay>
+      <source src="/sarkar-ki-nagri-mein.mp3" type="audio/mpeg" />
+    </audio> -->
+  </body>
+</html>
